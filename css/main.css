@@ -98,6 +98,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.About{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sectionbox{
+  padding: 10px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
