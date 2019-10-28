@@ -98,24 +98,70 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navigation{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  width:100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+  color: #000;
+  font-family: Comic;
+  font-weight: bold;
+}
+
+.navbar {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin: 0 auto;
+  color: #000;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.navbar a{
+  margin: 0px 5px 0px 5px;
+}
+
 .About{
   width:100%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
-.sectionbox{
+.sectionbox {
+  background-color: rgba(130, 110, 86, 1);
   padding: 10px;
   color: #fff;
+  mix-blend-mode: multiply;
 }
 
-
-
-
-
-
+.footer {
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  color: #000;
+  font-family: Arial;
+  font-weight: 100;
+}
 
 
 
