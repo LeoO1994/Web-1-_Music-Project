@@ -97,6 +97,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body{
+background-image: url('../img/backgroundimage.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 .navigation {
   width: 100%;
   display: flex;
@@ -135,6 +143,11 @@ textarea {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+.eltonimage{
+width: 35%;
+height: auto;
 }
 
 .sectionbox1 {
