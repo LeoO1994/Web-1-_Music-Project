@@ -134,7 +134,7 @@ background-repeat: no-repeat;
   font-weight: bold;
 }
 
-.navbar a{
+.navbar a {
   margin: 0px 5px 0px 5px;
 }
 
@@ -145,18 +145,18 @@ background-repeat: no-repeat;
   background-size: cover;
 }
 
-.eltonimage{
+.eltonimage {
 width: 35%;
 height: auto;
 }
 
 .sectionbox1 {
-  mix-blend-mode: multiply;
-  width: 800px;
-  height: 525px;
-  background-color: rgba(130, 110, 86, 1);
+  width: 5000px;
+  height: 452px;
+  background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
+  mix-blend-mode: multiply;
 }
 
 .About {
@@ -168,12 +168,12 @@ height: auto;
 }
 
 .sectionbox2 {
-  mix-blend-mode: multiply;
-  width: 619px;
-  height: 350px;
-  background-color: rgba(130, 110, 86, 1);
+  width: 5000px;
+  height: 452px;
+  background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
+  mix-blend-mode: multiply;
 }
 
 .Tour {
@@ -185,12 +185,12 @@ height: auto;
 }
 
 .sectionbox3 {
-  mix-blend-mode: multiply;
-  width: 619px;
+  width: 5000px;
   height: 850px;
-  background-color: rgba(130, 110, 86, 1);
+  background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
+  mix-blend-mode: multiply;
 }
 
 .Testimonials {
