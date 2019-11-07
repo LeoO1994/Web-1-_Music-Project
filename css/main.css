@@ -105,6 +105,10 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+h1{
+  font-family: 'Lemon', cursive;
+}
+
 .navigation {
   width: 100%;
   display: flex;
@@ -136,6 +140,8 @@ background-repeat: no-repeat;
 
 .navbar a {
   margin: 0px 5px 0px 5px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .body {
@@ -145,14 +151,29 @@ background-repeat: no-repeat;
   background-size: cover;
 }
 
-.eltonimage {
+.eltonimage1 {
+min-width: 300px;
+width: 35%;
+height: auto;
+min-height: 490px;
+background-image: url('../img/ELJ1.jpg');
+background-position: center center;
+background-size: cover;
+}
+
+.eltonimage2 {
+width: 35%;
+height: auto;
+}
+
+.eltonimage3 {
 width: 35%;
 height: auto;
 }
 
 .sectionbox1 {
-  width: 5000px;
-  height: 452px;
+  width: 65%;
+  height: auto;
   background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
@@ -165,11 +186,12 @@ height: auto;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  flex-direction: row;
 }
 
 .sectionbox2 {
-  width: 5000px;
-  height: 452px;
+  width: 65%;
+  height: auto;
   background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
@@ -184,9 +206,26 @@ height: auto;
   margin: 0 auto;
 }
 
+table{
+  align-content: center;
+}
+
+th {
+  text-align: center;
+  height: 100%;
+  padding: 5px
+}
+
+td {
+  background-color: rgba(88,228,102, .30);
+  text-align: center;
+  height: 100%;
+  padding: 5px
+}
+
 .sectionbox3 {
-  width: 5000px;
-  height: 850px;
+  width: 65%;
+  height: auto;
   background-color: rgba(130, 110, 86, .85);
   padding: 10px;
   color: white;
@@ -204,7 +243,7 @@ height: auto;
 .footer {
   width:100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto;
   color: #000;
