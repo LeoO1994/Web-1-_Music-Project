@@ -99,10 +99,11 @@ textarea {
    ========================================================================== */
 
 body{
-background-image: url('../img/backgroundimage.jpg');
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
+  background-image: url('../img/backgroundimage.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1{
@@ -152,26 +153,54 @@ h1{
 }
 
 .eltonimage1 {
-min-width: 300px;
-width: 35%;
-height: auto;
-min-height: 490px;
-background-image: url('../img/ELJ1.jpg');
-background-position: center center;
-background-size: cover;
+  min-width: 300px;
+  width: 35%;
+  height: auto;
+  min-height: 490px;
+  background-image: url('../img/ELJ1.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 .eltonimage2 {
-width: 35%;
-height: auto;
+  min-width: 300px;
+  width: 35%;
+  height: auto;
+  min-height: 490px;
+  background-image: url('../img/ELJ2.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 .eltonimage3 {
-width: 35%;
-height: auto;
+  min-width: 300px;
+  width: 35%;
+  height: auto;
+  min-height: 490px;
+  background-image: url('../img/ELJ3.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 
 .sectionbox1 {
+  width: 65%;
+  height: auto;
+  background-color: rgba(130, 110, 86, .85);
+  padding: 10px;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.sectionbox2 {
+  width: 65%;
+  height: auto;
+  background-color: rgba(130, 110, 86, .85);
+  padding: 10px;
+  color: white;
+  mix-blend-mode: multiply;
+}
+
+.sectionbox3 {
   width: 65%;
   height: auto;
   background-color: rgba(130, 110, 86, .85);
@@ -250,8 +279,6 @@ td {
   font-family: Arial;
   font-weight: 100;
 }
-
-
 
 /* ==========================================================================
    Helper classes
