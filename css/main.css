@@ -99,7 +99,7 @@ textarea {
    ========================================================================== */
 
 body{
-  background-image: url('../img/backgroundimage.jpg');
+  background-image: url('../img/EJ4.jpeg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -145,6 +145,11 @@ h1{
   text-decoration: none;
 }
 
+a:hover {
+  color: red;
+  background-color: transparent;
+}
+
 .body {
   background-image: url('img_image.jpg');
   background-repeat: no-repeat;
@@ -152,55 +157,30 @@ h1{
   background-size: cover;
 }
 
+/* Look at this to fix to design
 .eltonimage1 {
-  min-width: 300px;
-  width: 35%;
-  height: auto;
-  min-height: 490px;
-  background-image: url('../img/ELJ1.jpg');
-  background-position: center center;
+  width: 30%;
+  background-image: url('../img/test1.jpg');
   background-size: cover;
+  background-position: center center;
 }
 
 .eltonimage2 {
-  min-width: 300px;
-  width: 35%;
-  height: auto;
-  min-height: 490px;
-  background-image: url('../img/ELJ2.jpg');
-  background-position: center center;
+  width: 30%;
+  background-image: url('../img/test2.jpg');
   background-size: cover;
+  background-position: center center;
 }
 
 .eltonimage3 {
-  min-width: 300px;
-  width: 35%;
-  height: auto;
-  min-height: 490px;
-  background-image: url('../img/ELJ3.jpg');
-  background-position: center center;
+  width: 30%;
+  background-image: url('../img/test3.jpg');
   background-size: cover;
+  background-position: center center;
 }
+*/
 
 .sectionbox1 {
-  width: 65%;
-  height: auto;
-  background-color: rgba(130, 110, 86, .85);
-  padding: 10px;
-  color: white;
-  mix-blend-mode: multiply;
-}
-
-.sectionbox2 {
-  width: 65%;
-  height: auto;
-  background-color: rgba(130, 110, 86, .85);
-  padding: 10px;
-  color: white;
-  mix-blend-mode: multiply;
-}
-
-.sectionbox3 {
   width: 65%;
   height: auto;
   background-color: rgba(130, 110, 86, .85);
@@ -272,10 +252,12 @@ td {
 .footer {
   width:100%;
   display: flex;
+  float: right;
   justify-content: space-around;
   align-items: flex-start;
   margin: 0 auto;
-  color: #000;
+  color: red;
+  background-color: rgb(255, 255, 255, 0.85);
   font-family: Arial;
   font-weight: 100;
 }
