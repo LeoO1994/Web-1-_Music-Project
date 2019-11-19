@@ -1,6 +1,7 @@
 /*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -12,11 +13,10 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -28,240 +28,208 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
+audio, canvas, iframe, img, svg, video {
+	vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-  resize: vertical;
+	resize: vertical;
 }
-
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
 .browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-body{
-  background-image: url('../img/EJ4.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+body {
+	background-image: url('../img/EJ4.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-
-h1{
-  font-family: 'Lemon', cursive;
+h1 {
+	font-family: 'Lemon', cursive;
 }
-
 .navigation {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
 .header {
-  width:100%;
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin: 0 auto;
-  color: #000;
-  font-family: Comic;
-  font-weight: bold;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin: 0 auto;
+	color: #000;
+	font-family: Comic;
+	font-weight: bold;
 }
-
 .navbar {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: right;
-  margin: 0 auto;
-  color: #000;
-  font-family: Arial;
-  font-weight: bold;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: right;
+	margin: 0 auto;
+	color: #000;
+	font-family: Arial;
+	font-weight: bold;
 }
-
 .navbar a {
-  margin: 0px 5px 0px 5px;
-  color: #fff;
-  text-decoration: none;
+	margin: 0px 5px 0px 5px;
+	color: #fff;
+	text-decoration: none;
 }
-
 a:hover {
-  color: red;
-  background-color: transparent;
+	color: red;
+	background-color: transparent;
 }
-
 .body {
-  background-image: url('img_image.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+	background-image: url('img_image.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
-
-/* Look at this to fix to design
 .eltonimage1 {
-  width: 30%;
-  background-image: url('../img/test1.jpg');
-  background-size: cover;
-  background-position: center center;
+	width: 30%;
+	background-image: url('../img/test1.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 500px;
 }
-
 .eltonimage2 {
-  width: 30%;
-  background-image: url('../img/test2.jpg');
-  background-size: cover;
-  background-position: center center;
+	width: 30%;
+	background-image: url('../img/test2.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 500px;
 }
-
 .eltonimage3 {
-  width: 30%;
-  background-image: url('../img/test3.jpg');
-  background-size: cover;
-  background-position: center center;
+	width: 30%;
+	background-image: url('../img/test3.jpg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 500px;
 }
-*/
-
 .sectionbox1 {
-  width: 65%;
-  height: auto;
-  background-color: rgba(130, 110, 86, .85);
-  padding: 10px;
-  color: white;
-  mix-blend-mode: multiply;
+	width: 65%;
+	height: auto;
+	background-color: rgba(130, 110, 86, .85);
+	padding: 10px;
+	color: white;
 }
-
 .About {
-  width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  flex-direction: row;
+	/* Fix height of sectionboxes */
+	min-height: 600px;
+	/* End Fix Height */
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	flex-direction: row;
 }
-
 .sectionbox2 {
-  width: 65%;
-  height: auto;
-  background-color: rgba(130, 110, 86, .85);
-  padding: 10px;
-  color: white;
-  mix-blend-mode: multiply;
+	width: 65%;
+	height: auto;
+	background-color: rgba(130, 110, 86, .85);
+	padding: 10px;
+	color: white;
 }
-
 .Tour {
-  width:100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 auto;
 }
-
-table{
-  align-content: center;
+table {
+	align-content: center;
 }
-
 th {
-  text-align: center;
-  height: 100%;
-  padding: 5px
+	text-align: center;
+	height: 100%;
+	padding: 5px
 }
-
 td {
-  background-color: rgba(88,228,102, .30);
-  text-align: center;
-  height: 100%;
-  padding: 5px
+	background-color: rgba(88, 228, 102, .30);
+	text-align: center;
+	height: 100%;
+	padding: 5px
 }
-
 .sectionbox3 {
-  width: 65%;
-  height: auto;
-  background-color: rgba(130, 110, 86, .85);
-  padding: 10px;
-  color: white;
-  mix-blend-mode: multiply;
+	width: 65%;
+	height: auto;
+	background-color: rgba(130, 110, 86, .85);
+	padding: 10px;
+	color: white;
 }
-
 .Testimonials {
-  width:100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 auto;
 }
-
 .footer {
-  width:100%;
-  display: flex;
-  float: right;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin: 0 auto;
-  color: red;
-  background-color: rgb(255, 255, 255, 0.85);
-  font-family: Arial;
-  font-weight: 100;
+	width: 100%;
+	display: flex;
+	float: right;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin: 0 auto;
+	color: red;
+	background-color: rgb(255, 255, 255, 0.85);
+	font-family: Arial;
+	font-weight: 100;
 }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -271,9 +239,8 @@ td {
  */
 
 .hidden {
-  display: none !important;
+	display: none !important;
 }
-
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
@@ -284,43 +251,39 @@ td {
 */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	/* 1 */
 }
-
 /*
 * Extends the .sr-only class to allow the element
 * to be focusable when navigated to via the keyboard:
 * https://www.drupal.org/node/897638
 */
 
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+.sr-only.focusable:active, .sr-only.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	white-space: inherit;
+	width: auto;
 }
-
 /*
 * Hide visually and from screen readers, but maintain layout
 */
 
 .invisible {
-  visibility: hidden;
+	visibility: hidden;
 }
-
 /*
 * Clearfix: contain floats
 *
@@ -333,35 +296,49 @@ td {
 *    `:before` to contain the top-margins of child elements.
 */
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
+.clearfix:before, .clearfix:after {
+	content: " ";
+	/* 1 */
+	display: table;
+	/* 2 */
 }
-
 .clearfix:after {
-  clear: both;
+	clear: both;
 }
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+/* On screens that are 1800px wide or more */
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+@media screen and (min-width: 1800px) {}
+/* On screens that are 1400px wide or less */
 
+@media screen and (max-width: 1400px) {}
+/* On screens that are 1000px wide or less */
+
+@media screen and (max-width: 1000px) {}
+/* On screens that are 900px wide or less */
+
+@media screen and (max-width: 900px) {}
+/* On screens that are 768px wide or less */
+
+@media screen and (max-width: 768px) {}
+/* On screens that are 550px wide or less */
+
+@media screen and (max-width: 550px) {
+	.eltonimage1, .eltonimage2, .eltonimage3 {
+		display: none;
+	}
+}
+/* On screens that are 450px wide or less */
+
+@media screen and (max-width: 450px) {}
+/* On screens that are 300px wide or less */
+
+@media screen and (max-width: 300px) {}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -369,61 +346,52 @@ td {
    ========================================================================== */
 
 @media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster */
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  /*
+	*, *:before, *:after {
+		background: transparent !important;
+		color: #000 !important;
+		/* Black prints faster */
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	a, a:visited {
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content: " (" attr(title) ")";
+	}
+	/*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre {
-    white-space: pre-wrap !important;
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  /*
+	a[href^="#"]:after, a[href^="javascript:"]:after {
+		content: "";
+	}
+	pre {
+		white-space: pre-wrap !important;
+	}
+	pre, blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	/*
      * Printing Tables:
      * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+	thead {
+		display: table-header-group;
+	}
+	tr, img {
+		page-break-inside: avoid;
+	}
+	p, h2, h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2, h3 {
+		page-break-after: avoid;
+	}
 }
