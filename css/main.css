@@ -111,9 +111,10 @@ h1 {
 	color: #000;
 	font-family: Comic;
 	font-weight: bold;
+	padding: 2%;
 }
 .navbar {
-	width: 100%;
+	width: 33%;
 	display: flex;
 	justify-content: center;
 	align-items: right;
@@ -126,6 +127,7 @@ h1 {
 	margin: 0px 5px 0px 5px;
 	color: #fff;
 	text-decoration: none;
+	font-size: 16px;
 }
 a:hover {
 	color: red;
@@ -142,33 +144,30 @@ a:hover {
 	background-image: url('../img/test1.jpg');
 	background-size: cover;
 	background-position: center center;
-	min-height: 500px;
+	height: 500px;
 }
 .eltonimage2 {
 	width: 30%;
 	background-image: url('../img/test2.jpg');
 	background-size: cover;
 	background-position: center center;
-	min-height: 500px;
+	height: 500px;
 }
 .eltonimage3 {
 	width: 30%;
 	background-image: url('../img/test3.jpg');
 	background-size: cover;
 	background-position: center center;
-	min-height: 500px;
+	height: 760px;
 }
 .sectionbox1 {
 	width: 65%;
-	height: auto;
+	height: 500px;
 	background-color: rgba(130, 110, 86, .85);
-	padding: 10px;
 	color: white;
+	padding-left: 20px;
 }
 .About {
-	/* Fix height of sectionboxes */
-	min-height: 600px;
-	/* End Fix Height */
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -178,10 +177,10 @@ a:hover {
 }
 .sectionbox2 {
 	width: 65%;
-	height: auto;
+	height: 500px;
 	background-color: rgba(130, 110, 86, .85);
-	padding: 10px;
 	color: white;
+	padding-left: 20px;
 }
 .Tour {
 	width: 100%;
@@ -206,9 +205,9 @@ td {
 }
 .sectionbox3 {
 	width: 65%;
-	height: auto;
+	height: 760px;
 	background-color: rgba(130, 110, 86, .85);
-	padding: 10px;
+	padding-left: 20px;
 	color: white;
 }
 .Testimonials {
@@ -313,32 +312,84 @@ td {
 
 /* On screens that are 1800px wide or more */
 
-@media screen and (min-width: 1800px) {}
-/* On screens that are 1400px wide or less */
+@media screen and (max-width: 1000px) {
 
-@media screen and (max-width: 1400px) {}
-/* On screens that are 1000px wide or less */
+	.sectionbox1,
+	.sectionbox2,
+	.sectionbox3 {
+		height: 650px;
+}
 
-@media screen and (max-width: 1000px) {}
+.eltonimage1,
+.eltonimage2,
+.eltonimage3{
+	height: 650px;
+}
+}
 /* On screens that are 900px wide or less */
 
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+	.sectionbox1,
+	.sectionbox2 {
+		height: 750px;
+		width: 55%;
+}
+
+.sectionbox3{
+	height: 1000px;
+	width: 55%;
+}
+
+.eltonimage1,
+.eltonimage2{
+	height: 750px;
+	width: 45%;
+}
+
+.eltonimage3{
+	height: 1000px;
+	width: 45%;
+}
+}
 /* On screens that are 768px wide or less */
 
-@media screen and (max-width: 768px) {}
-/* On screens that are 550px wide or less */
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 550px) {
-	.eltonimage1, .eltonimage2, .eltonimage3 {
-		display: none;
+	.About{
+		flex-direction: column;
 	}
+
+	.eltonimage1,
+	.eltonimage2,
+	.eltonimage3{
+		width: 100%;
+		height: 300px;
+	}
+
+	.sectionbox1,
+	.sectionbox2{
+		width: 100%;
+		height: 600px;
+	}
+	.sectionbox3 {
+		width: 100%;
+		height: 900px;
 }
-/* On screens that are 450px wide or less */
 
-@media screen and (max-width: 450px) {}
-/* On screens that are 300px wide or less */
+.navbar a {
+	font-size: 14px;
+}
 
-@media screen and (max-width: 300px) {}
+.header{
+	font-size: 10px;
+}
+
+.navbar {
+    width: 65%;
+	}
+
+}
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
